@@ -15,7 +15,7 @@ namespace HelloWorld
             {
                 Console.WriteLine("Guess the number");
                 int userValue = Int32.Parse(Console.ReadLine());
-                randomNumber = random.Next(11);
+                randomNumber = random.Next(1,10);
                 Console.WriteLine(randomNumber);
                 if (randomNumber == userValue)
                 {
