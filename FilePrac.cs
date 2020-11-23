@@ -16,6 +16,12 @@ namespace HelloWorld
             }
             Console.WriteLine("The number of words in the given file is:"+count);
             file.Close();
+            
+            /*or could use below logic*/
+            
+            var path = @"D:\Swati\C#Training\Filetext.txt";
+            var wordNum = new List<string>(System.IO.File.ReadAllText(path).Split(' '));
+            Console.WriteLine(wordNum.Count());
         }
     }
 }
