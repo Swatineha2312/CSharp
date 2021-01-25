@@ -1,3 +1,3 @@
 # CSharp
 
-CSharp Basic Practise programs
+CSharp Basic programs
